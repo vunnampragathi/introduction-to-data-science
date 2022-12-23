@@ -1,0 +1,73 @@
+1.
+Data science is a combination of statistics and computer science. The actual journey of data science is started in 1962 by John W.Tukey, who is a statistician whose actual interest is in data analysis. In 1974, Peter Naur gave definition to data science. In 1977 IASC formed as ISI, which tried to link statistical & computer technologies and also tried to convert data into information. Later from 1989 people variously used the terms data mining, database marketing, data analysis, data science, data preparation, data cleaning, data selection..etc.,In 1997 C.F.Jeff Wu called statisticians as data scientists. In 1999, Jacob Zahavi said some special tools were required for data mining and started working on the required tools. Journal of data science was launched in 2003, which provides applications of data science. finally, In 2008 the career of data scientists is defined. In 2010, Hilary Mason & Chris Wiggins said that data scientist work is scrub, explore, obtain, model & interpret and also said creative decision & open-mindedness in a scientific context is required to become a data scientist. In the 20th-century data science has become the most commonly used word and most exciting job.
+
+
+
+2.
+step1:
+given,
+total weightage of assignments is 30% it means total assignment weight is 0.3
+each project weightage is 20% it means each project weight is 0.2
+attendance weightage for 15 classs is 10% it means attendance weight is 0.1
+
+
+step2:
+
+let ,
+a1,a2,a3,a4,a5,a6,a7,a8,a9,a10 are randomly selected scores of 10 assignments out of 30 assignments, where scores are in range of 0 to 100
+p1,p2,p3 are individual project scores, where scores are in range of 0 to 100
+no. of classes present =P, no. of classes absent =A
+
+step 3:
+
+now,
+course score can be caluculated with below formulae
+course score=(assignment weight)*(sum of randomly selected scores of 10 assignments)+(each project weight)*project1 score+(each project weight)*project2 score+(each project weight)*project3 score+(attendance weight)*(no.of classes present+no.of classes absent)
+
+that means,
+course score=(0.3)*(a1+a2+a3+a4+a5+a6+a7+a8+a9+a10) + (0.2)*p1 +(0.2)*p2 +(0.2)*p3 + 0.1*(P)*1 +0.1*A*0
+
+now,
+course grade= (course score)/(total course score)
+course grade percentage= [ (course score)/(total course score)]*100
+
+step4:
+
+for example,
+a1=90,a2=70,a3=88,a4=49,a5=98,a6=55,a7=76,a8=65,a9=49,a10=59
+p1=79,p2=90,p3=65
+P=13 , A=2
+course score=(0.3)*(90+70+88+49+98+55+76+65+49+59) + (0.2)*79 +(0.2)*90 +(0.2)*65 + 0.1*13*1 + 0.1*2*0
+            =209.7 +15.8+ 18+13+1.3
+            =257.8
+
+total course score=(0.3)*(100+100+100+100+100+100+100+100+100+100) + (0.2)*100 +(0.2)*100 +(0.2)*100 +(0.1)*15*1
+                  =361.5
+
+course grade =257.8/361.5
+             =0.7131
+course grade prercentage=0.7131*100%
+                        =71.31%.
+so course grade percentage is 71.31%. then grade for this percentage is c- and grade points is 1.67 as defined in the syllabus
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
